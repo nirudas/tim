@@ -1,5 +1,5 @@
 Factorial Program
-------------------
+--------------------
 int factoril(int n)
 {
 if(n==0)
