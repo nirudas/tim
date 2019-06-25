@@ -1,0 +1,33 @@
+Factorial Program
+------------------
+int factoril(int n)
+{
+if(n==0)
+{
+return 1;
+}
+else
+{
+return n*factorial(n-1);
+}
+}
+------------------------------------------------------------------------------
+reverse Array or string
+
+int a[]={10,34,66,21,90};
+int start=0;end=4;
+
+void ReverseArray()
+{
+int temp;
+while(start<end)
+{
+temp=a[start]
+a[start]=a[end];
+a[end]=temp;
+start++;
+end--;
+------------------------
+
+}
+}
